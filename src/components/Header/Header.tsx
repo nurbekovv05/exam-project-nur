@@ -33,11 +33,11 @@ const Header = ({dark, isDarkMode}: IDark) => {
                                   <NavLink to={'/basket'}><p>Фильмы</p></NavLink>
                                     <p>Сериалы</p>
                                     <p>Люди</p>
-                                    <form action="">
+                                  <form action="">
                                         <label htmlFor="">
                                             <input   type="search" onChange={(e) => navigate(`/movies/searchMovie/${e.target.value}`)} className={`${search ? "searchBlock" : "searchNone "} delay-300 transition-all block w-full p-3 pl-10 text-sm outline-0 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500`} placeholder="Search" required/>
                                         </label>
-                                    </form>
+                                  </form>
                                 </div>
                             </div>
                         </div>
